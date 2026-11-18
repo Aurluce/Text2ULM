@@ -1,0 +1,35 @@
+@startuml
+!theme cerulean
+left to right direction
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+skinparam roundCorner 8
+skinparam classAttributeIconSize 0
+title E-commerce Order System
+
+actor Client
+actor Manager
+actor "Payment Service" as Payment_Service #E8E8E8
+rectangle "E-commerce System" {
+  usecase "Browse catalog" as Browse_catalog
+  usecase "Add products to cart" as Add_products_to_cart
+  usecase "Place an order" as Place_an_order
+  usecase "Make online payment" as Make_online_payment
+  usecase "Apply a promo code" as Apply_a_promo_code
+  usecase "Update inventory" as Update_inventory
+  usecase "Process orders" as Process_orders
+  usecase "Track orders" as Track_orders
+}
+
+Client --> Browse_catalog
+Client --> Add_products_to_cart
+Client --> Place_an_order
+Client --> Track_orders
+Client --> Apply_a_promo_code
+Payment_Service --> Make_online_payment
+Manager --> Update_inventory
+Manager --> Process_orders
+Place_an_order .> Make_online_payment : <<include>>
+Apply_a_promo_code .> Place_an_order : <<extend>>
+
+@enduml

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="925.2px" preserveAspectRatio="none" style="width:418px;height:925px;" version="1.1" viewBox="0 0 418 925" width="418.8px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="21.6" lengthAdjust="spacingAndGlyphs" textLength="302.4" x="63" y="23.0903">Cycle de vie d'une commande</text><rect fill="#FEFECE" height="60" rx="15" ry="15" style="stroke: #A80036; stroke-width: 1.7999999999999998;" width="75.6" x="164.4" y="136.219"/><line style="stroke: #A80036; stroke-width: 1.7999999999999998;" x1="164.4" x2="240" y1="171.1005" y2="171.1005"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="51.6" x="176.4" y="160.1781">Panier</text><rect fill="#FEFECE" height="60" rx="15" ry="15" style="stroke: #A80036; stroke-width: 1.7999999999999998;" width="116.4" x="7.2" y="291.019"/><line style="stroke: #A80036; stroke-width: 1.7999999999999998;" x1="7.2" x2="123.6" y1="325.9005" y2="325.9005"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="92.4" x="19.2" y="314.9781">Commandé</text><rect fill="#FEFECE" height="60" rx="15" ry="15" style="stroke: #A80036; stroke-width: 1.7999999999999998;" width="70.8" x="33.6" y="445.819"/><line style="stroke: #A80036; stroke-width: 1.7999999999999998;" x1="33.6" x2="104.4" y1="480.7005" y2="480.7005"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="46.8" x="45.6" y="469.7781">Payée</text><rect fill="#FEFECE" height="60" rx="15" ry="15" style="stroke: #A80036; stroke-width: 1.7999999999999998;" width="80.4" x="78" y="600.619"/><line style="stroke: #A80036; stroke-width: 1.7999999999999998;" x1="78" x2="158.4" y1="635.5005" y2="635.5005"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="56.4" x="90" y="624.5781">Traitée</text><rect fill="#FEFECE" height="60" rx="15" ry="15" style="stroke: #A80036; stroke-width: 1.7999999999999998;" width="72" x="114.6" y="755.419"/><line style="stroke: #A80036; stroke-width: 1.7999999999999998;" x1="114.6" x2="186.6" y1="790.3005" y2="790.3005"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="48" x="126.6" y="779.3781">Livrée</text><rect fill="#FEFECE" height="60" rx="15" ry="15" style="stroke: #A80036; stroke-width: 1.7999999999999998;" width="91.2" x="209.4" y="445.819"/><line style="stroke: #A80036; stroke-width: 1.7999999999999998;" x1="209.4" x2="300.6" y1="480.7005" y2="480.7005"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="67.2" x="221.4" y="469.7781">Annulée</text><ellipse cx="202.2" cy="51.019" fill="#000000" rx="12" ry="12" style="stroke: none; stroke-width: 1.2;"/><ellipse cx="201" cy="900.619" fill="none" rx="12" ry="12" style="stroke: #000000; stroke-width: 1.2;"/><ellipse cx="201.6" cy="901.219" fill="#000000" rx="7.2" ry="7.2" style="stroke: none; stroke-width: 1.2;"/><!--MD5=[0420fdb0c75688dae34e5dc66f344bbf]
+link *start to Panier--><path d="M202.2,63.031 C202.2,78.259 202.2,106.711 202.2,129.703 " fill="none" id="*start-&gt;Panier" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="202.2,136.027,207,125.227,202.2,130.027,197.4,125.227,202.2,136.027" style="stroke: #A80036; stroke-width: 1.2;"/><!--MD5=[1b4cf5417b9200129c5e65e6d0b9e92c]
+link Panier to Commande--><path d="M164.196,170.731 C125.628,176.335 67.8,191.455 40.2,232.219 C29.604,247.879 34.38,268.003 42.504,285.019 " fill="none" id="Panier-&gt;Commande" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="45.36,290.659,44.763,278.8555,42.6493,285.3062,36.1985,283.1926,45.36,290.659" style="stroke: #A80036; stroke-width: 1.2;"/><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacingAndGlyphs" textLength="286.8" x="41.4" y="250.0954">passer_commande [produits_ajoutés&gt;0]</text><!--MD5=[1288a614d280a4f0f248c07119915eee]
+link Panier to Annulee--><path d="M240,174.583 C271.272,182.731 313.752,199.399 334.2,232.219 C376.104,299.467 320.7,391.171 283.572,440.263 " fill="none" id="Panier-&gt;Annulee" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="279.588,445.447,289.9765,439.8115,283.2454,440.6906,282.3663,433.9596,279.588,445.447" style="stroke: #A80036; stroke-width: 1.2;"/><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacingAndGlyphs" textLength="55.2" x="349.8" y="327.4954">annuler</text><!--MD5=[f01df0bbba2708620f10861d4f353456]
+link Commande to Payee--><path d="M62.82,351.031 C61.632,368.119 60.72,390.211 61.8,409.819 C62.328,419.371 63.288,429.679 64.344,439.195 " fill="none" id="Commande-&gt;Payee" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="65.088,445.639,68.6233,434.3615,64.4029,439.6783,59.0861,435.4578,65.088,445.639" style="stroke: #A80036; stroke-width: 1.2;"/><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacingAndGlyphs" textLength="139.2" x="63" y="404.8954">paiement_confirmé</text><!--MD5=[00e52486016d738a046e0cf3ffdec551]
+link Commande to Annulee--><path d="M123.66,338.863 C151.776,349.171 184.464,364.771 208.2,387.019 C223.572,401.431 234.936,422.035 242.604,439.651 " fill="none" id="Commande-&gt;Annulee" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="245.064,445.495,245.2968,433.6787,242.7357,439.9652,236.4491,437.404,245.064,445.495" style="stroke: #A80036; stroke-width: 1.2;"/><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacingAndGlyphs" textLength="55.2" x="227.4" y="404.8954">annuler</text><!--MD5=[2963caa7b6058035c8ebbd311b203a54]
+link Payee to Traitee--><path d="M71.928,505.975 C74.22,523.315 78.144,545.599 84.6,564.619 C88.044,574.759 92.868,585.259 97.8,594.775 " fill="none" id="Payee-&gt;Traitee" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="100.86,600.571,100.0367,588.7811,98.0472,595.2712,91.557,593.2816,100.86,600.571" style="stroke: #A80036; stroke-width: 1.2;"/><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacingAndGlyphs" textLength="133.2" x="85.8" y="559.6954">traiter_commande</text><!--MD5=[87781f235ea320d9c5534c1f7495b1c1]
+link Traitee to Livree--><path d="M124.368,660.847 C129.732,686.059 137.508,722.623 143.196,749.407 " fill="none" id="Traitee-&gt;Livree" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="144.456,755.299,146.8958,743.735,143.2035,749.4312,137.5073,745.7389,144.456,755.299" style="stroke: #A80036; stroke-width: 1.2;"/><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacingAndGlyphs" textLength="36" x="138.6" y="714.4954">livrer</text><!--MD5=[f5b0dfb6a3a6bb0967827a140f6f2e07]
+link Livree to *end--><path d="M163.584,815.671 C173.22,837.247 186.012,865.879 193.872,883.459 " fill="none" id="Livree-&gt;*end" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="196.332,888.967,196.308,877.1484,193.8841,883.4891,187.5434,881.0651,196.332,888.967" style="stroke: #A80036; stroke-width: 1.2;"/><!--MD5=[0434aa4b38f1851d0c937280767362df]
+link Annulee to *end--><path d="M252.792,505.915 C247.716,569.119 233.928,724.219 211.8,852.619 C210.084,862.567 207.576,873.583 205.404,882.427 " fill="none" id="Annulee-&gt;*end" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="203.832,888.703,211.1145,879.3947,205.2913,882.8832,201.8028,877.0599,203.832,888.703" style="stroke: #A80036; stroke-width: 1.2;"/><!--MD5=[137ed7bc9439f013d52a3593221da491]
+@startuml
+top to bottom direction
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+skinparam roundCorner 8
+skinparam classAttributeIconSize 0
+scale 1.2
+title Cycle de vie d'une commande
+
+state Panier
+state "Commandé" as Commande
+state "Payée" as Payee
+state "Traitée" as Traitee
+state "Livrée" as Livree
+state "Annulée" as Annulee
+
+[*] - -> Panier
+Panier - -> Commande : passer_commande [produits_ajoutés>0]
+Panier - -> Annulee : annuler
+Commande - -> Payee : paiement_confirmé
+Commande - -> Annulee : annuler
+Payee - -> Traitee : traiter_commande
+Traitee - -> Livree : livrer
+Livree - -> [*]
+Annulee - -> [*]
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 WAT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.13.0.3+1-1-24.04.1-Ubuntu
+Operating System: Linux
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>

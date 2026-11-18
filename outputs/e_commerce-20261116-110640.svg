@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="380.4px" preserveAspectRatio="none" style="width:2362px;height:380px;" version="1.1" viewBox="0 0 2362 380" width="2362.8px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="21.6" lengthAdjust="spacingAndGlyphs" textLength="127.2" x="1131.6" y="23.0903">E-commerce</text><!--MD5=[3c0cfbcaa7f53cc905f8bfb16dc8b4e4]
+cluster Système de commerce en ligne--><rect fill="#FFFFFF" height="153.6" rx="4.8" ry="4.8" style="stroke: #000000; stroke-width: 1.7999999999999998;" width="2323.2" x="26.4" y="214.219"/><text fill="#000000" font-family="sans-serif" font-size="16.8" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="259.2" x="1058.4" y="234.5781">Système de commerce en ligne</text><ellipse cx="1366.8301" cy="317.545" fill="#FEFECE" rx="109.2301" ry="24.726" style="stroke: #A80036; stroke-width: 1.7999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="177.6" x="1278.0301" y="324.7858">Parcourir le catalogue</text><ellipse cx="185.9403" cy="317.1671" fill="#FEFECE" rx="140.3403" ry="30.9481" style="stroke: #A80036; stroke-width: 1.7999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="248.4" x="61.7403" y="324.4078">Ajouter des produits au panier</text><ellipse cx="747.7643" cy="317.4519" fill="#FEFECE" rx="111.7643" ry="25.2329" style="stroke: #A80036; stroke-width: 1.7999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="183.6" x="655.9643" y="324.6926">Passer une commande</text><ellipse cx="2192.5075" cy="317.4405" fill="#FEFECE" rx="138.7075" ry="30.6215" style="stroke: #A80036; stroke-width: 1.7999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="244.8" x="2070.1075" y="324.6813">Effectuer le paiement en ligne</text><ellipse cx="1092.9188" cy="317.1228" fill="#FEFECE" rx="122.1188" ry="27.3038" style="stroke: #A80036; stroke-width: 1.7999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="207.6" x="989.1188" y="324.3635">Appliquer un code promo</text><ellipse cx="1631.8961" cy="317.1582" fill="#FEFECE" rx="113.2961" ry="25.5392" style="stroke: #A80036; stroke-width: 1.7999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="187.2" x="1538.2961" y="324.399">Mettre à jour les stocks</text><ellipse cx="1899.674" cy="317.5538" fill="#FEFECE" rx="112.274" ry="25.3348" style="stroke: #A80036; stroke-width: 1.7999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="184.8" x="1807.274" y="324.7946">Traiter les commandes</text><ellipse cx="481.274" cy="317.5538" fill="#FEFECE" rx="112.274" ry="25.3348" style="stroke: #A80036; stroke-width: 1.7999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="184.8" x="388.874" y="324.7946">Suivre ses commandes</text><!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
+entity Client--><ellipse cx="747.6" cy="50.419" fill="#FEFECE" rx="9.6" ry="9.6" style="stroke: #A80036; stroke-width: 1.7999999999999998;"/><path d="M747.6,60.019 L747.6,92.419 M732,69.619 L763.2,69.619 M747.6,92.419 L732,110.419 M747.6,92.419 L763.2,110.419 " fill="none" style="stroke: #A80036; stroke-width: 1.7999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="46.8" x="724.2" y="131.3781">Client</text><!--MD5=[cd8c11b395ea8d4455ad0ce8b1f7afee]
+entity Gestionnaire--><ellipse cx="1750.8" cy="50.419" fill="#FEFECE" rx="9.6" ry="9.6" style="stroke: #A80036; stroke-width: 1.7999999999999998;"/><path d="M1750.8,60.019 L1750.8,92.419 M1735.2,69.619 L1766.4,69.619 M1750.8,92.419 L1735.2,110.419 M1750.8,92.419 L1766.4,110.419 " fill="none" style="stroke: #A80036; stroke-width: 1.7999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="103.2" x="1699.2" y="131.3781">Gestionnaire</text><!--MD5=[c34726c23ba86099b3b5eaa467ec6c35]
+entity Service_de_paiement_externe--><ellipse cx="2192.4" cy="50.419" fill="#E8E8E8" rx="9.6" ry="9.6" style="stroke: #A80036; stroke-width: 1.7999999999999998;"/><path d="M2192.4,60.019 L2192.4,92.419 M2176.8,69.619 L2208,69.619 M2192.4,92.419 L2176.8,110.419 M2192.4,92.419 L2208,110.419 " fill="none" style="stroke: #A80036; stroke-width: 1.7999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacingAndGlyphs" textLength="230.4" x="2077.2" y="131.3781">Service de paiement externe</text><!--MD5=[83b422eb48c04dca5c374f0433d61d30]
+link Client to Parcourir_le_catalogue--><path d="M771.396,90.451 C844.728,96.283 1072.236,120.499 1237.2,204.619 C1278.54,225.703 1317.696,262.627 1341.936,288.199 " fill="none" id="Client-&gt;Parcourir_le_catalogue" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="1346.292,292.843,1342.3854,281.6887,1342.1798,288.4738,1335.3947,288.2682,1346.292,292.843" style="stroke: #A80036; stroke-width: 1.2;"/><!--MD5=[544b477151f2d69b4624d6a5dfe7befa]
+link Client to Ajouter_des_produits_au_panier--><path d="M724.128,92.887 C660.984,104.395 483.108,140.575 348,204.619 C303.324,225.799 257.376,258.703 225.876,283.315 " fill="none" id="Client-&gt;Ajouter_des_produits_au_panier" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="220.944,287.179,232.3957,284.257,225.6542,283.4623,226.4489,276.7207,220.944,287.179" style="stroke: #A80036; stroke-width: 1.2;"/><!--MD5=[dabce254278968c480a22582d252ecc9]
+link Client to Passer_une_commande--><path d="M747.6,136.495 C747.6,181.423 747.6,247.423 747.6,285.679 " fill="none" id="Client-&gt;Passer_une_commande" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="747.6,292.039,752.4,281.239,747.6,286.039,742.8,281.239,747.6,292.039" style="stroke: #A80036; stroke-width: 1.2;"/><!--MD5=[dae844751db10c81e61c11b4efd418da]
+link Client to Suivre_ses_commandes--><path d="M723.96,109.003 C676.116,149.827 567.792,242.299 513.492,288.655 " fill="none" id="Client-&gt;Suivre_ses_commandes" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="508.728,292.723,520.0591,289.3635,513.292,288.8282,513.8273,282.0611,508.728,292.723" style="stroke: #A80036; stroke-width: 1.2;"/><!--MD5=[56928489e3b3b54ef6f0ab07efd86b82]
+link Client to Appliquer_un_code_promo--><path d="M771.36,104.455 C828.84,142.279 976.14,239.191 1049.832,287.683 " fill="none" id="Client-&gt;Appliquer_un_code_promo" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="1055.016,291.091,1048.6136,281.1568,1049.9975,287.8024,1043.3519,289.1864,1055.016,291.091" style="stroke: #A80036; stroke-width: 1.2;"/><!--MD5=[b07596963c582e5a2c9ad109ca347a7b]
+link Gestionnaire to Mettre_a_jour_les_stocks--><path d="M1725.9,136.495 C1702.296,181.675 1667.568,248.143 1647.624,286.315 " fill="none" id="Gestionnaire-&gt;Mettre_a_jour_les_stocks" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="1644.792,291.727,1654.0482,284.3783,1647.5709,286.4093,1645.5399,279.9321,1644.792,291.727" style="stroke: #A80036; stroke-width: 1.2;"/><!--MD5=[d19a326e96c33ecaf45edecaf2135b4c]
+link Gestionnaire to Traiter_les_commandes--><path d="M1781.988,136.495 C1811.724,181.927 1855.536,248.875 1880.436,286.939 " fill="none" id="Gestionnaire-&gt;Traiter_les_commandes" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="1883.976,292.339,1882.081,280.6733,1880.6916,287.3178,1874.0471,285.9284,1883.976,292.339" style="stroke: #A80036; stroke-width: 1.2;"/><!--MD5=[5080fbb7607bd3c77690ea132f296060]
+link Service_de_paiement_externe to Effectuer_le_paiement_en_ligne--><path d="M2192.4,136.495 C2192.4,179.515 2192.4,241.831 2192.4,280.639 " fill="none" id="Service_de_paiement_externe-&gt;Effectuer_le_paiement_en_ligne" style="stroke: #A80036; stroke-width: 1.2;"/><polygon fill="#A80036" points="2192.4,286.663,2197.2,275.863,2192.4,280.663,2187.6,275.863,2192.4,286.663" style="stroke: #A80036; stroke-width: 1.2;"/><!--MD5=[5acca9f28a24abbba7ad9f085877bef7]
+link Passer_une_commande to Effectuer_le_paiement_en_ligne--><path d="M779.124,293.167 C817.248,265.507 884.532,221.875 950.4,204.619 C1066.74,174.139 1918.26,167.935 2032.8,204.619 C2080.956,220.039 2127.132,255.739 2157.312,282.871 " fill="none" id="Passer_une_commande-&gt;Effectuer_le_paiement_en_ligne" style="stroke: #A80036; stroke-width: 1.2; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="2162.016,287.143,2157.2659,276.321,2157.581,283.1019,2150.8001,283.4169,2162.016,287.143" style="stroke: #A80036; stroke-width: 1.2;"/><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacingAndGlyphs" textLength="68.4" x="1443" y="190.0954">«include»</text><!--MD5=[96d72874f1b94b10fe44db52f16e4bb6]
+link Appliquer_un_code_promo to Passer_une_commande--><path d="M970.5,317.419 C936.396,317.419 899.436,317.419 865.608,317.419 " fill="none" id="Appliquer_un_code_promo-&gt;Passer_une_commande" style="stroke: #A80036; stroke-width: 1.2; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="859.332,317.419,870.132,322.219,865.332,317.419,870.132,312.619,859.332,317.419" style="stroke: #A80036; stroke-width: 1.2;"/><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacingAndGlyphs" textLength="67.2" x="881.4" y="308.8954">«extend»</text><!--MD5=[bd065bac19f8e5506f851c6acdfd9b16]
+@startuml
+top to bottom direction
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+skinparam roundCorner 8
+skinparam classAttributeIconSize 0
+scale 1.2
+title E-commerce
+
+actor Client
+actor Gestionnaire
+actor "Service de paiement externe" as Service_de_paiement_externe #E8E8E8
+rectangle "Système de commerce en ligne" {
+  usecase "Parcourir le catalogue" as Parcourir_le_catalogue
+  usecase "Ajouter des produits au panier" as Ajouter_des_produits_au_panier
+  usecase "Passer une commande" as Passer_une_commande
+  usecase "Effectuer le paiement en ligne" as Effectuer_le_paiement_en_ligne
+  usecase "Appliquer un code promo" as Appliquer_un_code_promo
+  usecase "Mettre à jour les stocks" as Mettre_a_jour_les_stocks
+  usecase "Traiter les commandes" as Traiter_les_commandes
+  usecase "Suivre ses commandes" as Suivre_ses_commandes
+}
+
+Client - -> Parcourir_le_catalogue
+Client - -> Ajouter_des_produits_au_panier
+Client - -> Passer_une_commande
+Client - -> Suivre_ses_commandes
+Client - -> Appliquer_un_code_promo
+Gestionnaire - -> Mettre_a_jour_les_stocks
+Gestionnaire - -> Traiter_les_commandes
+Service_de_paiement_externe - -> Effectuer_le_paiement_en_ligne
+Passer_une_commande .> Effectuer_le_paiement_en_ligne : <<include>>
+Appliquer_un_code_promo .> Passer_une_commande : <<extend>>
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 WAT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.13.0.3+1-1-24.04.1-Ubuntu
+Operating System: Linux
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>

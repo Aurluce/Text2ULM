@@ -1,0 +1,125 @@
+@startuml
+top to bottom direction
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+skinparam roundCorner 8
+skinparam classAttributeIconSize 0
+scale 1.1
+title Online Recruitment Platform
+
+hide empty members
+abstract class Utilisateur {
+  id:int
+  nom:string
+  email:string
+  dateInscription:date
+}
+class Candidat {
+  telephone:string
+  ville:string
+  disponibilite:bool
+}
+class Recruteur {
+  poste:string
+}
+class Administrateur {
+  niveauAcces:string
+}
+class Entreprise {
+  nom:string
+  secteur:string
+  siteWeb:string
+  ville:string
+}
+class Offre {
+  titre:string
+  description:string
+  typeContrat:TypeContrat
+  salaire:float
+  dateLimite:date
+  statut:StatutOffre
+}
+class Competence {
+  name:string
+}
+class CandidatCompetence {
+  niveau:string
+}
+class CV {
+  fichierUrl:string
+  dateMiseAJour:date
+  resume:string
+}
+class Experience {
+  poste:string
+  employeur:string
+  dateDebut:date
+  dateFin:date
+}
+class Formation {
+  diplome:string
+  etablissement:string
+  anneeObtention:date
+}
+class Candidature {
+  dateSoumission:date
+  lettreMotivation:string
+  scoreMatching:float
+  statut:StatutCandidature
+}
+class Entretien {
+  date:date
+  duree:int
+  lieu:string
+  mode:ModeEntretien
+}
+class Evaluation {
+  note:float
+  commentaire:string
+  decision:string
+}
+class Notification {
+  message:string
+  dateEnvoi:date
+  estLue:bool
+}
+enum TypeContrat {
+  CDI
+  CDD
+  STAGE
+}
+enum StatutOffre {
+  OUVERTE
+  FERMEE
+}
+enum StatutCandidature {
+  EN_ATTENTE
+  PRESELECTIONNEE
+  ENTRETIEN
+  ACCEPTEE
+  REFUSEE
+}
+enum ModeEntretien {
+  PRESENTIEL
+  VISIO
+}
+
+Candidat --|> Utilisateur
+Recruteur --|> Utilisateur
+Administrateur --|> Utilisateur
+Entreprise "1" -- "*" Recruteur
+Recruteur "1" -- "*" Offre
+Offre "*" -- "*" Competence
+Candidat "1" -- "*" CandidatCompetence
+Competence "1" -- "*" CandidatCompetence
+Candidat "1" -- "1" CV
+CV "1" *-- "*" Experience
+CV "1" *-- "*" Formation
+Candidat "1" -- "*" Candidature
+Offre "1" -- "*" Candidature
+Candidature "1" -- "*" Entretien
+Recruteur "1" -- "*" Entretien
+Entretien "1" -- "1" Evaluation
+Utilisateur "1" -- "*" Notification
+
+@enduml

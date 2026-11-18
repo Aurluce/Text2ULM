@@ -1,0 +1,36 @@
+@startuml
+!theme cerulean
+left to right direction
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+skinparam roundCorner 8
+skinparam classAttributeIconSize 0
+title Library Management
+
+hide empty members
+abstract class Document {
+  title: string
+  author: string
+  year: int
+}
+class Book {
+  isbn: string
+}
+class Journal {
+  number: int
+}
+class Member {
+  name: string
+  email: string
+}
+class Loan {
+  checkoutDate: date
+  dueDate: date
+}
+
+Book --|> Document
+Journal --|> Document
+Member "0..*" -- "1" Loan : borrows
+Loan "1" -- "0..*" Document : covers
+
+@enduml

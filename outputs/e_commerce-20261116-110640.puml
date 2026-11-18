@@ -1,0 +1,35 @@
+@startuml
+top to bottom direction
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+skinparam roundCorner 8
+skinparam classAttributeIconSize 0
+scale 1.2
+title E-commerce
+
+actor Client
+actor Gestionnaire
+actor "Service de paiement externe" as Service_de_paiement_externe #E8E8E8
+rectangle "Système de commerce en ligne" {
+  usecase "Parcourir le catalogue" as Parcourir_le_catalogue
+  usecase "Ajouter des produits au panier" as Ajouter_des_produits_au_panier
+  usecase "Passer une commande" as Passer_une_commande
+  usecase "Effectuer le paiement en ligne" as Effectuer_le_paiement_en_ligne
+  usecase "Appliquer un code promo" as Appliquer_un_code_promo
+  usecase "Mettre à jour les stocks" as Mettre_a_jour_les_stocks
+  usecase "Traiter les commandes" as Traiter_les_commandes
+  usecase "Suivre ses commandes" as Suivre_ses_commandes
+}
+
+Client --> Parcourir_le_catalogue
+Client --> Ajouter_des_produits_au_panier
+Client --> Passer_une_commande
+Client --> Suivre_ses_commandes
+Client --> Appliquer_un_code_promo
+Gestionnaire --> Mettre_a_jour_les_stocks
+Gestionnaire --> Traiter_les_commandes
+Service_de_paiement_externe --> Effectuer_le_paiement_en_ligne
+Passer_une_commande .> Effectuer_le_paiement_en_ligne : <<include>>
+Appliquer_un_code_promo .> Passer_une_commande : <<extend>>
+
+@enduml

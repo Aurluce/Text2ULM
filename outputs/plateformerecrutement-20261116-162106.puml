@@ -1,0 +1,155 @@
+@startuml
+top to bottom direction
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+skinparam roundCorner 8
+title PlateformeRecrutement
+
+hide circle
+skinparam linetype ortho
+entity Utilisateur {
+  * id : int <<PK>>
+  --
+  * nom : string
+  * email : string
+  * date_inscription : date
+}
+entity Candidat {
+  * id : int <<PK>>
+  --
+  utilisateur_id : int <<FK>>
+  telephone : string
+  ville : string
+  disponibilite : string
+}
+entity Recruteur {
+  * id : int <<PK>>
+  --
+  utilisateur_id : int <<FK>>
+  poste : string
+  entreprise_id : int <<FK>>
+}
+entity Administrateur {
+  * id : int <<PK>>
+  --
+  utilisateur_id : int <<FK>>
+  niveau_acces : string
+}
+entity Entreprise {
+  * id : int <<PK>>
+  --
+  nom : string
+  secteur : string
+  site_web : string
+  ville : string
+}
+entity Offre {
+  * id : int <<PK>>
+  --
+  titre : string
+  description : string
+  type_contrat : string
+  salaire : float
+  date_limite : date
+  statut : string
+  recruteur_id : int <<FK>>
+}
+entity Competence {
+  * id : int <<PK>>
+  --
+  nom : string
+}
+entity OffreCompetence {
+  * id : int <<PK>>
+  --
+  offre_id : int <<FK>>
+  competence_id : int <<FK>>
+}
+entity CandidatCompetence {
+  * id : int <<PK>>
+  --
+  candidat_id : int <<FK>>
+  competence_id : int <<FK>>
+  niveau : string
+}
+entity CV {
+  * id : int <<PK>>
+  --
+  candidat_id : int <<FK>>
+  fichier_url : string
+  date_mise_a_jour : date
+  resume : string
+}
+entity Experience {
+  * id : int <<PK>>
+  --
+  cv_id : int <<FK>>
+  poste : string
+  employeur : string
+  date_debut : date
+  date_fin : date
+}
+entity Formation {
+  * id : int <<PK>>
+  --
+  cv_id : int <<FK>>
+  diplome : string
+  etablissement : string
+  annee_obtention : int
+}
+entity Candidature {
+  * id : int <<PK>>
+  --
+  candidat_id : int <<FK>>
+  offre_id : int <<FK>>
+  date_soumission : date
+  lettre_motivation : string
+  score_matching : float
+  statut : string
+}
+entity Entretien {
+  * id : int <<PK>>
+  --
+  candidature_id : int <<FK>>
+  date : date
+  duree : int
+  lieu : string
+  mode : string
+  recruteur_id : int <<FK>>
+}
+entity Evaluation {
+  * id : int <<PK>>
+  --
+  entretien_id : int <<FK>>
+  note : float
+  commentaire : string
+  decision : string
+}
+entity Notification {
+  * id : int <<PK>>
+  --
+  utilisateur_id : int <<FK>>
+  message : string
+  date_envoi : datetime
+  est_lue : bool
+}
+
+Utilisateur |o--|| Candidat : estCandidat
+Utilisateur |o--|| Recruteur : estRecruteur
+Utilisateur |o--|| Administrateur : estAdministrateur
+Entreprise ||--o{ Recruteur : emploie
+Recruteur ||--o{ Offre : publie
+Offre ||--o{ OffreCompetence : requiert
+Competence ||--o{ OffreCompetence : requisePar
+Candidat ||--o{ CandidatCompetence : possède
+Competence ||--o{ CandidatCompetence : possédéePar
+Candidat ||--|| CV : possèdeCV
+CV ||--o{ Experience : contientExperience
+CV ||--o{ Formation : contientFormation
+Candidat ||--o{ Candidature : soumet
+Offre ||--o{ Candidature : reçoit
+Candidature ||--o{ Entretien : produit
+Entretien ||--|| Evaluation : produitEvaluation
+Utilisateur ||--o{ Notification : reçoit
+
+@enduml

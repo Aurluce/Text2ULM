@@ -1,0 +1,27 @@
+@startuml
+top to bottom direction
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+skinparam roundCorner 8
+skinparam classAttributeIconSize 0
+scale 1.2
+title Cycle de vie d'une commande
+
+state Panier
+state "Commandé" as Commande
+state "Payée" as Payee
+state "Traitée" as Traitee
+state "Livrée" as Livree
+state "Annulée" as Annulee
+
+[*] --> Panier
+Panier --> Commande : passer_commande [produits_ajoutés>0]
+Panier --> Annulee : annuler
+Commande --> Payee : paiement_confirmé
+Commande --> Annulee : annuler
+Payee --> Traitee : traiter_commande
+Traitee --> Livree : livrer
+Livree --> [*]
+Annulee --> [*]
+
+@enduml

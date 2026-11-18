@@ -1,0 +1,43 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class Utilisateur {
+  id: int
+  nom: string
+  email: string
+}
+
+class Candidat {
+  telephone: string
+  ville: string
+}
+
+class Recruteur {
+  poste: string
+}
+
+class Entreprise {
+  nom: string
+  secteur: string
+}
+
+class Offre {
+  titre: string
+  typeContrat: string
+  dateLimite: date
+}
+
+class Candidature {
+  dateSoumission: date
+  statut: string
+}
+
+Candidat "1" -- "1" Utilisateur : inherits
+Recruteur "1" -- "1" Utilisateur : inherits
+Entreprise "1" -- "*" Recruteur : emploie
+Recruteur "1" -- "*" Offre : publie
+Offre "1" -- "*" Candidature : recevoir
+Candidat "1" -- "*" Candidature : soumet
+
+@enduml
